@@ -1,0 +1,25 @@
+{
+  "name": "eslint-config-ahui",
+  "version": "0.0.1",
+  "description": "An eslint config used by myself",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/funkyLover/eslint-config-ahui.git"
+  },
+  "peerDependencies": {
+    "eslint": ">= 3"
+  },
+  "dependencies": {
+    "eslint": "^3.18.0",
+    "eslint-config-standard": "^7.1.0",
+    "eslint-plugin-promise": "^3.5.0"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "ahui"
+  ],
+  "author": "funkyLover",
+  "homepage": "https://github.com/funkyLover/eslint-config-ahui#readme"
+}
