@@ -1,4 +1,13 @@
 module.exports = {
   // for Vanilla JS
-  extends: 'standard'
+  root: true,
+  extends: 'standard',
+  parser: 'babel-eslint',
+  env: {
+    browser: true,
+    es6: true
+  },
+  parserOptions: {
+    sourceType: 'module'
+  }
 };
